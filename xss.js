@@ -1,2 +1,3 @@
 var yourCookie = document.cookie;
-alert("The required cookie is: " + yourCookie)
+var victimName = prompt("Enter your name: ");
+alert(`Hello dear ${victimName}, your cookie {yourCookie} has been stolen...`);
